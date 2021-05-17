@@ -1,5 +1,4 @@
-﻿using IdentityServer3.Core.ViewModels;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Noku.WebApp.Models;
 using System;
