@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noku.WebApp", "Noku.WebApp.csproj", "{2986AFF8-7CAA-45C7-8E07-A91321245E5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Noku.WebApp", "Noku.WebApp.csproj", "{2986AFF8-7CAA-45C7-8E07-A91321245E5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Noku.Entities", "..\Noku.Entities\Noku.Entities.csproj", "{26700FF5-01E2-4690-9393-BF38A811D57C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noku.Service", "..\Noku.Service\Noku.Service.csproj", "{ABCC3831-AE91-4DC9-8A36-2AADBB1CEB28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{2986AFF8-7CAA-45C7-8E07-A91321245E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2986AFF8-7CAA-45C7-8E07-A91321245E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2986AFF8-7CAA-45C7-8E07-A91321245E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26700FF5-01E2-4690-9393-BF38A811D57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26700FF5-01E2-4690-9393-BF38A811D57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26700FF5-01E2-4690-9393-BF38A811D57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26700FF5-01E2-4690-9393-BF38A811D57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCC3831-AE91-4DC9-8A36-2AADBB1CEB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCC3831-AE91-4DC9-8A36-2AADBB1CEB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCC3831-AE91-4DC9-8A36-2AADBB1CEB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCC3831-AE91-4DC9-8A36-2AADBB1CEB28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

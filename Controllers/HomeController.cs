@@ -1,12 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Noku.WebApp.Models;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using ErrorViewModel = Noku.WebApp.Models.ErrorViewModel;
+
+//using ErrorViewModel = Noku.WebApp.Models.ErrorViewModel;
+
 
 namespace Noku.WebApp.Controllers
 {
